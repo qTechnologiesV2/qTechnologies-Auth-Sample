@@ -2,9 +2,9 @@
 Sample for sellers on our marketplace to check for a users license and updates
 
 ## Send Request
-You will send a POST request to https://verify.mdma.dev/customer.php with the value uid and rid set, uid stands for userId and rid for resourceId on our website.
+You will send a POST request to https://verify.mdma.dev/customer.php with the query of userId and resourceId.
 
-Those  IDs will be (if using placeholders like in the sample) injected on download.
+Those IDs will be (if using placeholders like in the sample) injected on download.
 
 ### Placeholders
 Placeholders that will be replaced on download:

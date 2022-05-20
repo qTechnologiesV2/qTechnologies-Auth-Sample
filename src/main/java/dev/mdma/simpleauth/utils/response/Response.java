@@ -41,6 +41,7 @@ public class Response {
 
         input.close();
 
+        System.out.println(response);
         if (connection.getResponseCode() == 200) {
             callback.accept(new Gson().fromJson(response, ResponseContainer.class));
         } else {
