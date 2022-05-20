@@ -20,7 +20,7 @@ The resource injector can only replace placeholders in .jar files, this means it
 ## Response from Server
 If the license has been successfully verified and the user isn't banned the response will look like this:
 
-    {"status":"SUCCESS","version":"1.7.4"}
+    {"status":"SUCCESS","username": "username", version":"1.7.4"}
 
 If something failed i.e the user is banned a response will look like this:
 
