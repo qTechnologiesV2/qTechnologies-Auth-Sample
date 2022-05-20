@@ -8,8 +8,8 @@ import java.util.Objects;
 public class Main {
     public static void main(String[] args) throws IOException {
         String currentVersion = "1.0"; // Current application version for updating checking.
-        String USER_ID = "2"; // This will be replaced on download with the downloading user's id
-        String RESOURCE_ID = "5"; // This will be replaced on download with the resource id
+        String USER_ID = "%%QTECH_USER_ID%%"; // This will be replaced on download with the downloading user's id
+        String RESOURCE_ID = "%%QTECH_RESOURCE_ID%%"; // This will be replaced on download with the resource id
 
         // Check license and fetch latest version string
         Response.getPostResponse("https://verify.mdma.dev/customer.php",
